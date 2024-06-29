@@ -1,0 +1,13 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+</head>
+<body>
+<canvas id="5b057faee1154216aa008fd62d560f85"></canvas>
+<script>
+var images=['data:image/bmp;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAfCAYAAACGVs+MAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACPSURBVFhH7Ze7DcAgDEQ9GiGDhE1gs4zECI7Np0FIqWyas3RFdEj3ZChyNCcwhYvpjUxVxFa6JUP0jNg+YuT1oIPyDE+L4SbdOo21bw9YS69DN7A1nVRPAzAAAAAAAAAAAAAAAAAAoL/lpk3oT+d7gbaTnekhye4dUT7KajqotPA5QpOsr0Pfm2a0TtiG6APJGJOyc1iuWAAAAABJRU5ErkJggg=='];function LoadImagesAndRender(){var loadedImages=0;for(var i=0;i<images.length;i++){var source=images[i];images[i]=new Image();images[i].src=source;images[i].onload=function(){loadedImages++;if (loadedImages==images.length){Render();}};}}function Render(){let a=document.getElementById('5b057faee1154216aa008fd62d560f85');let b=a.getContext('2d');a.width=32;a.height=31;b.drawImage(images[0],0,0,32,31,0,0,32,31);}window.addEventListener('onload',LoadImagesAndRender());
+</script>
+</body>
+</html>
